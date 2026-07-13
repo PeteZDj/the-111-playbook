@@ -1,0 +1,44 @@
+import { useEffect, useState } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import SearchModal from './components/SearchModal';
+import Home from './pages/Home';
+import PhasesIndex from './pages/PhasesIndex';
+import PhasePage from './pages/PhasePage';
+import AllTasks from './pages/AllTasks';
+import TaskPage from './pages/TaskPage';
+import ProgressPage from './pages/ProgressPage';
+import NotFound from './pages/NotFound';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+export default function App() {
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  return (
+    <div className="min-h-screen bg-aurora">
+      <ScrollToTop />
+      <Nav onOpenSearch={() => setSearchOpen(true)} />
+      <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <main className="pt-16">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/phases" element={<PhasesIndex />} />
+          <Route path="/phase/:slug" element={<PhasePage />} />
+          <Route path="/tasks" element={<AllTasks onOpenSearch={() => setSearchOpen(true)} />} />
+          <Route path="/task/:slug" element={<TaskPage />} />
+          <Route path="/progress" element={<ProgressPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}

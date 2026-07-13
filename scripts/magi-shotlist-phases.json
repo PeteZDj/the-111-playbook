@@ -1,0 +1,13 @@
+[
+  { "name": "phase-01-idea", "prompt": "A glowing lightbulb built from interconnected glowing nodes and tiny sticky notes, floating above an open notebook and a coffee cup, early-stage startup ideation and validation, hopeful and bright." },
+  { "name": "phase-02-brand", "prompt": "A designer's floating workspace with logo sketches, a rounded color-swatch palette, a typography specimen and a domain-name card on a screen, brand identity creation." },
+  { "name": "phase-03-infra", "prompt": "Clean isometric cloud servers connected by glowing DNS and CDN network lines to a globe, developer infrastructure and hosting foundation." },
+  { "name": "phase-04-mvp", "prompt": "A laptop where lines of code assemble into a simple app wireframe and buttons coming to life, building a minimum viable product, hands-on and energetic." },
+  { "name": "phase-05-design", "prompt": "A floating pixel-perfect design system: buttons, cards and toggles arranged on a grid with a ruler and color tokens, polished high-quality UI craftsmanship." },
+  { "name": "phase-06-security", "prompt": "A glowing padlock and a shield hovering over a stylized database cylinder with a fingerprint and key, secure authentication, data and encryption." },
+  { "name": "phase-07-launch", "prompt": "A friendly rocket on a launchpad beside a floating search bar and stacked content pages, product launch and SEO readiness, dawn sky." },
+  { "name": "phase-08-analytics", "prompt": "A sleek floating analytics dashboard with line charts, a conversion funnel and KPI tiles glowing on a dark panel, data and tracking." },
+  { "name": "phase-09-email", "prompt": "An open envelope releasing glowing connection lines that link a small crowd of diverse people, email newsletter and community retention, warm." },
+  { "name": "phase-10-growth", "prompt": "A soaring upward growth chart arrow rising over a cheering crowd of tiny people, a megaphone and floating social media heart and play icons, viral growth to ten thousand users." },
+  { "name": "phase-11-vc", "prompt": "Two hands shaking over a term-sheet document on a desk with an upward money graph and a golden coin stack in the background, venture capital funding success." }
+]

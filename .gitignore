@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Temp / generated working files
+_magi_tmp/
+_playbook_data.mjs
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
