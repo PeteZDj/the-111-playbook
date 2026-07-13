@@ -12,6 +12,18 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/images/phases/phase-10-growth.webp" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Apply the saved theme before paint to avoid a flash. Light is default.
+      (function () {
+        try {
+          var t = localStorage.getItem('p111_theme');
+          if (t === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -13,8 +13,8 @@ export default function PhasePage() {
   if (!phase) {
     return (
       <div className="max-w-3xl mx-auto px-5 py-24 text-center">
-        <h1 className="font-display text-3xl font-bold text-white">Phase not found</h1>
-        <Link to="/phases" className="mt-4 inline-block text-orange-400 hover:text-orange-300">← Back to all phases</Link>
+        <h1 className="font-display text-3xl font-bold text-ink">Phase not found</h1>
+        <Link to="/phases" className="mt-4 inline-block text-orange-600 dark:text-orange-400 hover:text-orange-500">← Back to all phases</Link>
       </div>
     );
   }
@@ -32,11 +32,11 @@ export default function PhasePage() {
       <section className="relative">
         <div className="absolute inset-0 h-80 overflow-hidden">
           <img src={phase.image} alt="" className="w-full h-full object-cover opacity-40" />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0B1020]/40 via-[#0B1020]/80 to-[#0B1020]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-canvas/40 via-canvas/80 to-canvas" />
         </div>
 
         <div className="relative max-w-5xl mx-auto px-5 pt-10 pb-6">
-          <Link to="/phases" className="inline-flex items-center gap-1.5 text-sm text-slate-300 hover:text-white mb-8">
+          <Link to="/phases" className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-ink mb-8">
             <ArrowLeft className="w-4 h-4" /> All phases
           </Link>
 
@@ -47,23 +47,23 @@ export default function PhasePage() {
             >
               {phase.id}
             </span>
-            <span className="text-sm font-semibold uppercase tracking-wider text-slate-400">Phase {phase.id} of 11</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-muted">Phase {phase.id} of 11</span>
           </div>
 
-          <h1 className="font-display text-4xl sm:text-5xl font-bold text-white max-w-3xl">{phase.title}</h1>
-          <p className="mt-4 text-lg text-slate-300 max-w-2xl">{phase.summary}</p>
+          <h1 className="font-display text-4xl sm:text-5xl font-bold text-ink max-w-3xl">{phase.title}</h1>
+          <p className="mt-4 text-lg text-muted max-w-2xl">{phase.summary}</p>
 
-          <div className="mt-6 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm">
+          <div className="mt-6 inline-flex items-center gap-2 rounded-xl border border-line bg-surface2 px-4 py-2.5 text-sm">
             <Target className="w-4 h-4 text-cyan-400" />
-            <span className="text-slate-400">By the end:</span>
-            <span className="text-white">{phase.outcome}</span>
+            <span className="text-muted">By the end:</span>
+            <span className="text-ink">{phase.outcome}</span>
           </div>
 
           <div className="mt-6 flex items-center gap-4 max-w-md">
-            <div className="flex-1 h-2 rounded-full bg-white/10 overflow-hidden">
+            <div className="flex-1 h-2 rounded-full bg-track overflow-hidden">
               <div className="h-full rounded-full transition-all" style={{ width: `${ppct}%`, backgroundColor: phase.color }} />
             </div>
-            <span className="text-sm text-slate-400 tabular-nums">{pdone}/{ids.length} done</span>
+            <span className="text-sm text-muted tabular-nums">{pdone}/{ids.length} done</span>
           </div>
         </div>
       </section>
@@ -79,15 +79,15 @@ export default function PhasePage() {
         {/* Phase nav */}
         <div className="mt-12 grid sm:grid-cols-2 gap-4">
           {prev ? (
-            <Link to={`/phase/${prev.slug}`} className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-white/25 transition">
-              <span className="text-xs text-slate-500 flex items-center gap-1"><ArrowLeft className="w-3 h-3" /> Previous phase</span>
-              <span className="mt-1 block font-display font-semibold text-white group-hover:text-white">{prev.title}</span>
+            <Link to={`/phase/${prev.slug}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift">
+              <span className="text-xs text-subtle flex items-center gap-1"><ArrowLeft className="w-3 h-3 group-hover:-translate-x-0.5 transition" /> Previous phase</span>
+              <span className="mt-1 block font-display font-semibold text-ink">{prev.title}</span>
             </Link>
           ) : <div />}
           {next && (
-            <Link to={`/phase/${next.slug}`} className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-white/25 transition text-right">
-              <span className="text-xs text-slate-500 flex items-center gap-1 justify-end">Next phase <ArrowRight className="w-3 h-3" /></span>
-              <span className="mt-1 block font-display font-semibold text-white">{next.title}</span>
+            <Link to={`/phase/${next.slug}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift text-right">
+              <span className="text-xs text-subtle flex items-center gap-1 justify-end">Next phase <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition" /></span>
+              <span className="mt-1 block font-display font-semibold text-ink">{next.title}</span>
             </Link>
           )}
         </div>

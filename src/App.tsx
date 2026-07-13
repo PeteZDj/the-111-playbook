@@ -12,6 +12,8 @@ import ProgressPage from './pages/ProgressPage';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyPage from './pages/CaseStudyPage';
 import NotFound from './pages/NotFound';
+import ScrollProgress from './components/ScrollProgress';
+import { useReveal } from './lib/useReveal';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -23,9 +25,11 @@ function ScrollToTop() {
 
 export default function App() {
   const [searchOpen, setSearchOpen] = useState(false);
+  useReveal();
 
   return (
     <div className="min-h-screen bg-aurora">
+      <ScrollProgress />
       <ScrollToTop />
       <Nav onOpenSearch={() => setSearchOpen(true)} />
       <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
