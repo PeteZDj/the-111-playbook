@@ -27,8 +27,8 @@ export default function SearchModal({ open, onClose }: { open: boolean; onClose:
 
   if (!open) return null;
 
-  const go = (slug: string) => {
-    navigate(`/task/${slug}`);
+  const go = (id: number) => {
+    navigate(`/task/${id}`);
     onClose();
   };
 
@@ -59,7 +59,7 @@ export default function SearchModal({ open, onClose }: { open: boolean; onClose:
             return (
               <button
                 key={t.id}
-                onClick={() => go(t.slug)}
+                onClick={() => go(t.id)}
                 className="w-full text-left px-4 py-3 flex items-start gap-3 hover:bg-surface2 border-b border-line"
               >
                 <span

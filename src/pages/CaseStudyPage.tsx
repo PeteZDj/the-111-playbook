@@ -106,7 +106,7 @@ export default function CaseStudyPage() {
               return (
                 <Link
                   key={id}
-                  to={`/task/${t.slug}`}
+                  to={`/task/${t.id}`}
                   className="group flex items-center justify-between gap-2 rounded-xl border border-line bg-surface px-4 py-3 hover:border-line-strong hover-lift"
                 >
                   <span className="min-w-0">

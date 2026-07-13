@@ -1,4 +1,5 @@
-import { useParams, Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import {
   ArrowLeft,
   ArrowRight,
@@ -16,9 +17,10 @@ import {
   Lightbulb,
   Building2,
 } from 'lucide-react';
-import { taskBySlug, taskById, totalTasks } from '../data/tasks';
+import { taskByKey, taskById, totalTasks } from '../data/tasks';
 import { phaseById } from '../data/phases';
 import { caseStudiesForTask } from '../data/caseStudies';
+import { taskExamplesFor } from '../data/taskCaseExamples';
 import { isTaskDone, toggleTask, isStepDone, toggleStep, useProgress } from '../lib/progress';
 
 const diffColor: Record<string, string> = {
@@ -28,9 +30,17 @@ const diffColor: Record<string, string> = {
 };
 
 export default function TaskPage() {
-  const { slug } = useParams();
+  const { key } = useParams();
+  const navigate = useNavigate();
   useProgress();
-  const task = slug ? taskBySlug(slug) : undefined;
+  const task = taskByKey(key);
+
+  // Canonicalise to the short, id-based URL (/task/84) when reached another way.
+  useEffect(() => {
+    if (task && key !== String(task.id)) {
+      navigate(`/task/${task.id}`, { replace: true });
+    }
+  }, [task, key, navigate]);
 
   if (!task) {
     return (
@@ -47,6 +57,7 @@ export default function TaskPage() {
   const next = taskById(task.id + 1);
   const stepsDone = task.steps.filter((_, i) => isStepDone(task.id, i)).length;
   const examples = task.examples ?? [];
+  const authoredExamples = taskExamplesFor(task.id);
   const relatedCases = caseStudiesForTask(task.id, task.phase);
 
   return (
@@ -242,40 +253,75 @@ export default function TaskPage() {
         <p className="text-muted">{task.deliverable}</p>
       </section>
 
-      {/* Related case studies — always populated, with a phase-specific story */}
-      {relatedCases.length > 0 && (
+      {/* See it in a real company — in-depth, ~150-word accounts per company */}
+      {(authoredExamples.length > 0 || relatedCases.length > 0) && (
         <section className="mt-8">
-          <h2 className="flex items-center gap-2 font-display font-semibold text-ink mb-1">
-            <Building2 className="w-4 h-4 text-violet-400" /> See it in a real company
+          <h2 className="flex items-center gap-2 font-display text-xl font-bold text-ink mb-1">
+            <Building2 className="w-5 h-5 text-violet-400" /> See it in a real company
           </h2>
-          <p className="text-sm text-subtle mb-3">How famous startups handled {phase.title.toLowerCase()}.</p>
-          <div className="grid sm:grid-cols-2 gap-3">
-            {relatedCases.map((c) => {
-              const story = c.phases.find((p) => p.phase === task.phase)?.story;
-              return (
-                <Link
+          <p className="text-sm text-subtle mb-4">
+            How famous startups actually handled “{task.title.toLowerCase()}”.
+          </p>
+
+          {authoredExamples.length > 0 ? (
+            <div className="space-y-4">
+              {authoredExamples.map(({ company: c, text }) => (
+                <div
                   key={c.slug}
-                  to={`/case-study/${c.slug}`}
-                  className="group rounded-xl border border-line bg-surface p-4 hover:border-line-strong hover-lift"
+                  data-reveal
+                  className="rounded-2xl border border-line bg-surface p-5 hover-lift"
                 >
-                  <div className="flex items-center gap-3 mb-2">
+                  <div className="flex items-center gap-3 mb-3">
                     <span
-                      className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0 group-hover:scale-110 group-hover:-rotate-6 transition-transform"
+                      className="w-11 h-11 rounded-2xl flex items-center justify-center text-xl shrink-0"
                       style={{ backgroundColor: `${c.color}1f` }}
                     >
                       {c.emoji}
                     </span>
-                    <span className="min-w-0">
-                      <span className="block text-sm font-medium text-ink">{c.company}</span>
-                      <span className="block text-[11px] text-subtle truncate">{c.category}</span>
-                    </span>
-                    <ArrowRight className="w-4 h-4 text-subtle group-hover:text-ink group-hover:translate-x-0.5 transition ml-auto shrink-0" />
+                    <div className="min-w-0">
+                      <div className="font-display font-bold text-ink">{c.company}</div>
+                      <div className="text-[11px] text-subtle">{c.category}</div>
+                    </div>
+                    <Link
+                      to={`/case-study/${c.slug}`}
+                      className="ml-auto shrink-0 inline-flex items-center gap-1 text-xs font-semibold text-orange-600 dark:text-orange-400 hover:gap-1.5 transition-all"
+                    >
+                      Full story <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
-                  <p className="text-xs text-muted leading-relaxed line-clamp-3">{story ?? c.tagline}</p>
-                </Link>
-              );
-            })}
-          </div>
+                  <p className="text-sm text-muted leading-relaxed">{text}</p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid sm:grid-cols-2 gap-3">
+              {relatedCases.map((c) => {
+                const story = c.phases.find((p) => p.phase === task.phase)?.story;
+                return (
+                  <Link
+                    key={c.slug}
+                    to={`/case-study/${c.slug}`}
+                    className="group rounded-xl border border-line bg-surface p-4 hover:border-line-strong hover-lift"
+                  >
+                    <div className="flex items-center gap-3 mb-2">
+                      <span
+                        className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0 group-hover:scale-110 group-hover:-rotate-6 transition-transform"
+                        style={{ backgroundColor: `${c.color}1f` }}
+                      >
+                        {c.emoji}
+                      </span>
+                      <span className="min-w-0">
+                        <span className="block text-sm font-medium text-ink">{c.company}</span>
+                        <span className="block text-[11px] text-subtle truncate">{c.category}</span>
+                      </span>
+                      <ArrowRight className="w-4 h-4 text-subtle group-hover:text-ink group-hover:translate-x-0.5 transition ml-auto shrink-0" />
+                    </div>
+                    <p className="text-xs text-muted leading-relaxed line-clamp-3">{story ?? c.tagline}</p>
+                  </Link>
+                );
+              })}
+            </div>
+          )}
         </section>
       )}
 
@@ -303,13 +349,13 @@ export default function TaskPage() {
       {/* Prev / Next */}
       <nav className="mt-14 grid sm:grid-cols-2 gap-4">
         {prev ? (
-          <Link to={`/task/${prev.slug}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift">
+          <Link to={`/task/${prev.id}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift">
             <span className="text-xs text-subtle flex items-center gap-1"><ArrowLeft className="w-3 h-3 group-hover:-translate-x-0.5 transition" /> Task #{prev.id}</span>
             <span className="mt-1 block font-display font-semibold text-ink line-clamp-1">{prev.title}</span>
           </Link>
         ) : <div />}
         {next && (
-          <Link to={`/task/${next.slug}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift text-right">
+          <Link to={`/task/${next.id}`} className="group rounded-2xl border border-line bg-surface p-5 hover:border-line-strong hover-lift text-right">
             <span className="text-xs text-subtle flex items-center gap-1 justify-end">Task #{next.id} <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition" /></span>
             <span className="mt-1 block font-display font-semibold text-ink line-clamp-1">{next.title}</span>
           </Link>

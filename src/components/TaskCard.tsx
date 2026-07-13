@@ -47,7 +47,7 @@ export default function TaskCard({ task }: { task: Task }) {
             <span className="text-[11px] text-subtle truncate">{phase.title}</span>
           </div>
 
-          <Link to={`/task/${task.slug}`} className="block">
+          <Link to={`/task/${task.id}`} className="block">
             <h3
               className={`font-display font-semibold text-ink leading-snug transition-colors group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-violet-500 ${
                 done ? 'line-through opacity-60' : ''
@@ -66,7 +66,7 @@ export default function TaskCard({ task }: { task: Task }) {
               <Clock className="w-3 h-3" /> {task.estimate}
             </span>
             <Link
-              to={`/task/${task.slug}`}
+              to={`/task/${task.id}`}
               className="ml-auto text-[11px] text-muted hover:text-ink flex items-center gap-0.5 opacity-0 group-hover:opacity-100 transition"
             >
               Open <ArrowUpRight className="w-3 h-3" />
@@ -114,7 +114,7 @@ export default function TaskCard({ task }: { task: Task }) {
               <span className="truncate">{task.metric}</span>
             </span>
             <Link
-              to={`/task/${task.slug}`}
+              to={`/task/${task.id}`}
               className="text-[11px] font-semibold text-orange-600 dark:text-orange-400 shrink-0 flex items-center gap-0.5 hover:gap-1.5 transition-all"
             >
               Full task <ArrowUpRight className="w-3 h-3" />

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import SearchModal from './components/SearchModal';
@@ -22,6 +22,14 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
   }, [pathname]);
   return null;
+}
+
+/** Handle the slash-less short form /task84 -> /task/84, else 404. */
+function CatchAll() {
+  const { pathname } = useLocation();
+  const m = pathname.match(/^\/tasks?(\d+)$/i);
+  if (m) return <Navigate to={`/task/${m[1]}`} replace />;
+  return <NotFound />;
 }
 
 /** Subtle UI click on any button/link, unless it opts out with data-nosound. */
@@ -56,11 +64,11 @@ export default function App() {
           <Route path="/phases" element={<PhasesIndex />} />
           <Route path="/phase/:slug" element={<PhasePage />} />
           <Route path="/tasks" element={<AllTasks onOpenSearch={() => setSearchOpen(true)} />} />
-          <Route path="/task/:slug" element={<TaskPage />} />
+          <Route path="/task/:key" element={<TaskPage />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/case-study/:slug" element={<CaseStudyPage />} />
           <Route path="/progress" element={<ProgressPage />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<CatchAll />} />
         </Routes>
       </main>
       <Footer />

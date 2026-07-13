@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3 animate-fadeUp">
             <Link
-              to="/task/1-write-down-the-idea-and-the-problem-it-solves"
+              to="/task/1"
               className="group inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-violet-500 text-white font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition pressable hover-sheen"
             >
               Start at task #1

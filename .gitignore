@@ -11,6 +11,10 @@ _playbook_data.mjs
 _shotlist_data.mjs
 _dump_data.mjs
 _dump.mjs
+_dump_tasks_data.mjs
+_verify_examples.mjs
+_commitmsg.txt
+scripts/_tasks-dump.json
 scripts/magi-shotlist-missing.json
 *.log
 

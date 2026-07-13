@@ -55,6 +55,19 @@ export const taskById = (id: number) => tasks.find((t) => t.id === id);
 export const taskBySlug = (slug: string) => tasks.find((t) => t.slug === slug);
 export const tasksByPhase = (phase: number) => tasks.filter((t) => t.phase === phase);
 
+/**
+ * Resolve a task from a URL key that may be a bare id ("84"), an id-prefixed
+ * slug ("84-build-a-community") or a legacy full slug. Enables short URLs.
+ */
+export function taskByKey(key: string | undefined) {
+  if (!key) return undefined;
+  const num = Number(key);
+  if (Number.isInteger(num) && num > 0) return taskById(num);
+  const lead = Number(key.split('-')[0]);
+  if (Number.isInteger(lead) && lead > 0) return taskById(lead);
+  return taskBySlug(key);
+}
+
 /** Lightweight full-text search across the most relevant fields. */
 export function searchTasks(query: string): Task[] {
   const q = query.trim().toLowerCase();
