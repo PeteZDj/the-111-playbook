@@ -9,6 +9,8 @@ import PhasePage from './pages/PhasePage';
 import AllTasks from './pages/AllTasks';
 import TaskPage from './pages/TaskPage';
 import ProgressPage from './pages/ProgressPage';
+import CaseStudies from './pages/CaseStudies';
+import CaseStudyPage from './pages/CaseStudyPage';
 import NotFound from './pages/NotFound';
 
 function ScrollToTop() {
@@ -34,6 +36,8 @@ export default function App() {
           <Route path="/phase/:slug" element={<PhasePage />} />
           <Route path="/tasks" element={<AllTasks onOpenSearch={() => setSearchOpen(true)} />} />
           <Route path="/task/:slug" element={<TaskPage />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/case-study/:slug" element={<CaseStudyPage />} />
           <Route path="/progress" element={<ProgressPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

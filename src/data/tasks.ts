@@ -1,4 +1,6 @@
 import type { Task } from './types';
+import { extras } from './extras';
+import { infographicIds } from './infographics';
 import { phase01 } from './tasks/phase01';
 import { phase02 } from './tasks/phase02';
 import { phase03 } from './tasks/phase03';
@@ -33,11 +35,19 @@ const raw: Task[] = [
   ...phase11,
 ];
 
-// Compute a stable slug for each task from its id + title.
-export const tasks: Task[] = raw.map((t) => ({
-  ...t,
-  slug: `${t.id}-${slugify(t.title)}`,
-}));
+// Enrich each task: stable slug, merged ELI5/examples, computed infographic path.
+export const tasks: Task[] = raw.map((t) => {
+  const extra = extras[t.id];
+  return {
+    ...t,
+    slug: `${t.id}-${slugify(t.title)}`,
+    eli5: extra?.eli5 ?? '',
+    examples: extra?.examples ?? [],
+    infographic: infographicIds.has(t.id)
+      ? `/images/tasks/task-${String(t.id).padStart(2, '0')}.webp`
+      : '',
+  };
+});
 
 export const totalTasks = tasks.length;
 
@@ -58,9 +68,11 @@ export function searchTasks(query: string): Task[] {
         t.why,
         t.deliverable,
         t.metric,
+        t.eli5 ?? '',
         ...t.steps,
         ...t.tools,
         ...t.guide,
+        ...(t.examples ?? []),
       ]
         .join(' ')
         .toLowerCase();

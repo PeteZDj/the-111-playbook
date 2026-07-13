@@ -1,0 +1,446 @@
+[
+  {
+    "name": "task-01",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Write down the idea and the problem it solves\". Central idea to communicate visually: Turn a vague hunch into a single, sharp problem statement on one page. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Draft a one\", \"Write\", \"Score the problem\", \"Name the exact\". Add one small tag/badge with the goal metric: \"Problem clarity\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-02",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Interview 15 potential customers\". Central idea to communicate visually: Talk to real people to confirm the problem exists and learn how they experience it. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build a list\", \"Write\", \"Book calls\", \"Ask walk me\". Add one small tag/badge with the goal metric: \"≥10 of 15 interviews confirm the same core…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-03",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Define your ideal customer profile & persona\". Central idea to communicate visually: Pin down exactly who you are building for first, in enough detail to find and message them. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Cluster your interviewees\", \"Pick the single\", \"Write firmographics/demographics\", \"Write a named\". Add one small tag/badge with the goal metric: \"You can name 3 exact places to reach…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-04",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Size the market (TAM / SAM / SOM)\". Central idea to communicate visually: Estimate whether this can become a big business, using bottom-up math you can defend. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Define the unit\", \"Count units\", \"Compute SAM units\", \"Estimate a realistic\". Add one small tag/badge with the goal metric: \"A defensible SAM figure and a credible path…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-05",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Map the competition & alternatives\". Central idea to communicate visually: Understand every way your customer solves this today — including doing nothing. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List direct competitors\", \"Sign up\", \"Mine reviews\", \"Record each competitor\". Add one small tag/badge with the goal metric: \"A defensible wedge\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-06",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Craft your value proposition & positioning\". Central idea to communicate visually: Say what you do, for whom, and why it is better — in one sentence anyone gets instantly. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Fill\", \"Rewrite\", \"Draft headline variations\", \"Test each against\". Add one small tag/badge with the goal metric: \"ICP members restate your value prop back correctly…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-07",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run a smoke test to measure real demand\". Central idea to communicate visually: Put up a landing page (or fake-door) and see if strangers will actually sign up. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build a one\", \"Optionally add\", \"Add analytics event\", \"Drive targeted traffic\". Add one small tag/badge with the goal metric: \"≥5–15% of targeted visitors convert to email/waitlist\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-08",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Validate willingness to pay\". Central idea to communicate visually: Find out not just whether people want it, but whether they will pay — and roughly how much. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Ask interviewees what\", \"Run Van Westendorp\", \"Attempt\", \"Frame price against\". Add one small tag/badge with the goal metric: \"At least 1–3 customers commit money before the…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-09",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Write a one-page lean canvas & success criteria\". Central idea to communicate visually: Capture the whole business model on one page and define what \"working\" looks like. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Fill all nine\", \"Stress\", \"Define\", \"Write explicit success\". Add one small tag/badge with the goal metric: \"A single page anyone can read to understand…\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-10",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Make the go / no-go decision\". Central idea to communicate visually: Look at all the evidence and consciously decide to build, pivot or stop. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Lay all Phase\", \"Score each criterion\", \"Choose one\", \"If pivoting\". Add one small tag/badge with the goal metric: \"A conscious, criteria-based decision — not drift\". Small bottom-corner phase label: \"Phase 1: Idea & Validation\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-11",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Choose a memorable name\". Central idea to communicate visually: Land on a brand name that is easy to say, spell, remember and secure as a domain. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Brainstorm\", \"Filter for short\", \"Say each finalist\", \"Eliminate names\". Add one small tag/badge with the goal metric: \"5/5 people spell it correctly after hearing it…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-12",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Register the domain (and protect it)\". Central idea to communicate visually: Secure your primary domain plus key defensive variants, on an account you control. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose the primary\", \"Register it plus\", \"Use a reputable\", \"Enable auto\". Add one small tag/badge with the goal metric: \"Domain resolves, is locked, and is logged in…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-13",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Secure social handles & profiles\". Central idea to communicate visually: Claim a consistent @handle everywhere and set up placeholder profiles. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Run your name\", \"Claim the exact\", \"Set avatar\", \"Create a link\". Add one small tag/badge with the goal metric: \"Same handle secured on 100% of your target…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-14",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Design a simple logo & a Netflix-style favicon\". Central idea to communicate visually: Create a clean wordmark plus a single-icon mark that reads perfectly at 16px. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose a typeface\", \"Design a single\", \"Verify the icon\", \"Create light\". Add one small tag/badge with the goal metric: \"Icon is recognisable and legible at 16×16 across…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-15",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Define brand colours, type & design tokens\". Central idea to communicate visually: Lock a small, accessible palette and type scale, encoded as reusable design tokens. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Pick primary\", \"Differentiate your primary\", \"Check every text/background\", \"Choose\". Add one small tag/badge with the goal metric: \"Every text/background pair passes WCAG AA; one theme…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-16",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Write your brand voice & messaging guidelines\". Central idea to communicate visually: Define how you sound and the core messages you repeat everywhere. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose\", \"Write do/don t\", \"Build a messaging\", \"Bake in verbatim\". Add one small tag/badge with the goal metric: \"Anyone\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-17",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Create a brand kit & asset library\". Central idea to communicate visually: Gather logos, colours, fonts, imagery and templates into one shared, versioned place. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Collect all logo/favicon\", \"Add colour tokens\", \"Include the voice/messaging\", \"Build templates\". Add one small tag/badge with the goal metric: \"A new collaborator can produce an on-brand asset…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-18",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Design social & OG share images\". Central idea to communicate visually: Create branded Open Graph and social card images so every shared link looks intentional. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Design a default\", \"Create a template\", \"Add tailored OG\", \"Set og\". Add one small tag/badge with the goal metric: \"Every shared link renders a crisp, branded preview…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-19",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up business email & legal identity basics\". Central idea to communicate visually: Get a professional domain email and lay the minimum legal/entity foundation. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Set up domain\", \"Configure SPF\", \"Create shared aliases\", \"Decide\". Add one small tag/badge with the goal metric: \"Professional email deliverable to inbox; entity ready before…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-20",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build the first basic landing page\". Central idea to communicate visually: Ship a clean one-page site that states the value prop and captures interest. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Draft the page\", \"Write outcome\", \"Apply brand tokens\", \"Wire in email\". Add one small tag/badge with the goal metric: \"Page is live on your domain and converting…\". Small bottom-corner phase label: \"Phase 2: Brand, Domain & Identity\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-21",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up version control & repo hygiene\". Central idea to communicate visually: Put your code in Git/GitHub with a clean structure, README and .gitignore from commit one. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Initialise Git\", \"Add a stack\", \"Write a README\", \"Add\". Add one small tag/badge with the goal metric: \"Zero secrets in history; a stranger can clone…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-22",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Choose your tech stack\". Central idea to communicate visually: Pick languages, frameworks and services you can ship and maintain quickly. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Default\", \"Pick frontend\", \"Use managed services\", \"Choose a safe\". Add one small tag/badge with the goal metric: \"You can scaffold and ship a feature in…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-23",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up local dev environment & tooling\". Central idea to communicate visually: Configure formatting, linting, type-checking and scripts so quality is automatic. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Pin the runtime\", \"Add scripts\", \"Configure a formatter\", \"Add a linter\". Add one small tag/badge with the goal metric: \"A bad-style or type-broken commit is blocked automatically\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-24",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up Cloudflare (DNS, CDN, SSL)\". Central idea to communicate visually: Put Cloudflare in front of your domain for fast DNS, a global CDN, HTTPS and protection. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Add the domain\", \"Recreate DNS records\", \"Enable the proxy\", \"Install a Cloudflare\". Add one small tag/badge with the goal metric: \"Site serves over HTTPS globally via the CDN…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-25",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Provision hosting & connect your server\". Central idea to communicate visually: Get your app running on a host (managed platform or your own server) reachable from the domain. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose managed platform\", \"For a static\", \"For a dynamic\", \"Point Cloudflare DNS\". Add one small tag/badge with the goal metric: \"The domain loads the app from any network,…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-26",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Configure HTTPS / SSL end-to-end\". Central idea to communicate visually: Ensure every request is encrypted from browser to edge to origin, with valid certificates. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Set Cloudflare SSL/TLS\", \"Install an origin\", \"Cover all hostnames\", \"Bind the cert\". Add one small tag/badge with the goal metric: \"SSL checker passes; all hostnames serve HTTPS with…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-27",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a repeatable one-command deploy\". Central idea to communicate visually: Make shipping to production a single, reliable command or automatic on push. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Write a deploy\", \"Build first\", \"Preserve production\", \"Deploy atomically where\". Add one small tag/badge with the goal metric: \"You can ship to production in minutes and…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-28",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up staging vs production\". Central idea to communicate visually: Create a separate environment to test changes safely before they hit real users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Create a separate\", \"Give staging its\", \"Use sandbox/test credentials\", \"Seed staging\". Add one small tag/badge with the goal metric: \"Risky changes are validated on staging before ever…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-29",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Manage secrets & environment variables\". Central idea to communicate visually: Keep API keys, passwords and tokens out of code and safely configured per environment. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Load secrets\", \"Gitignore\", \"Use different credentials\", \"Use test\". Add one small tag/badge with the goal metric: \"No secret in Git; leaked keys can be…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-30",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Configure backups & uptime monitoring\". Central idea to communicate visually: Automate database/file backups and get alerted the moment the site goes down. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Automate database backups\", \"Back up user\", \"Do a periodic\", \"Add external uptime\". Add one small tag/badge with the goal metric: \"You are alerted within minutes of downtime and…\". Small bottom-corner phase label: \"Phase 3: Foundation & Infrastructure\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-31",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Scope the MVP ruthlessly\". Central idea to communicate visually: Cut the product down to the single core workflow that delivers the validated value. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Write the one\", \"List every imagined\", \"Sort each into\", \"Apply the test\". Add one small tag/badge with the goal metric: \"The MVP does one core job and could…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-32",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Map the core user flow\". Central idea to communicate visually: Diagram every step a user takes from arrival to achieving the core outcome. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Diagram entry sign\", \"Walk\", \"Mark the aha\", \"Count steps\". Add one small tag/badge with the goal metric: \"Shortest possible path to the aha moment, validated…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-33",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Design the data model & schema\". Central idea to communicate visually: Define the entities, relationships and fields your product needs, and set up migrations. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Extract core entities\", \"Define fields\", \"Normalise sensibly\", \"Add id\". Add one small tag/badge with the goal metric: \"Schema supports the full user flow and evolves…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-34",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build the core feature (happy path)\". Central idea to communicate visually: Implement the one workflow end to end so a user can complete the core job. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build the happy\", \"Wire real data\", \"Work in thin\", \"Reuse managed services/libraries\". Add one small tag/badge with the goal metric: \"A non-technical person finishes the core job with…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-35",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Seed realistic demo data\". Central idea to communicate visually: Populate the app with believable data so it looks alive and is testable. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Write a deterministic\", \"Include varied states\", \"Match the data\", \"Make reset re\". Add one small tag/badge with the goal metric: \"The app looks alive and holds up under…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-36",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Handle edge cases, errors & validation\". Central idea to communicate visually: Make the product robust when inputs are bad, actions fail or the network drops. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Do an adversarial\", \"Validate\", \"Write human\", \"Handle loading\". Add one small tag/badge with the goal metric: \"No dead-ends or crashes when a user does…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-37",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Make it responsive & mobile-first\". Central idea to communicate visually: Ensure the product works beautifully on phones, tablets and desktops. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Design and build\", \"Use responsive layouts\", \"Make tap targets\", \"Remove hover\". Add one small tag/badge with the goal metric: \"Core flow is fully usable and fast on…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-38",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add onboarding & empty states\". Central idea to communicate visually: Guide new users to the aha moment and make empty screens helpful, not dead ends. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Map the shortest\", \"Cut onboarding fields\", \"Design every empty\", \"Seed new accounts\". Add one small tag/badge with the goal metric: \"Rising activation rate\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-39",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Write tests for critical paths\". Central idea to communicate visually: Cover the money-making, data-critical flows with automated tests you can trust. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List the critical\", \"Write end\", \"Add unit tests\", \"Add integration tests\". Add one small tag/badge with the goal metric: \"Critical-path regressions are caught by tests before reaching…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-40",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Dogfood & run a private alpha\". Central idea to communicate visually: Use the product yourself daily and put it in front of a handful of real target users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Use your own\", \"Fix the friction\", \"Recruit\", \"Give a clear\". Add one small tag/badge with the goal metric: \"Alpha users complete the core job unaided and…\". Small bottom-corner phase label: \"Phase 4: MVP Build\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-41",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a hero section that converts\". Central idea to communicate visually: Craft a homepage hero as strong as afrosoftware.com, dj24.com or petedigital.com. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Write a benefit\", \"Add a one\", \"Add a low\", \"Use brand tokens\". Add one small tag/badge with the goal metric: \"Visitors grasp what you do in under 5…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-42",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Establish a design system / component library\". Central idea to communicate visually: Build reusable, consistent UI components driven by your design tokens. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build core components\", \"Drive them\", \"Design every state\", \"Adopt a headless/styled\". Add one small tag/badge with the goal metric: \"New screens are built from consistent components in…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-43",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add tasteful micro-interactions & motion\". Central idea to communicate visually: Use subtle animation and feedback to make the product feel alive and premium. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Add micro\", \"Use transitions\", \"Add loading skeletons/spinners\", \"Keep UI motion\". Add one small tag/badge with the goal metric: \"The product feels crafted and responsive without motion…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-44",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Polish every state: empty, loading, error, success\". Central idea to communicate visually: Make sure every screen looks intentional in all its states, not just the ideal one. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Inventory every screen\", \"Loading\", \"Empty\", \"Error\". Add one small tag/badge with the goal metric: \"No screen ever feels broken, blank or frozen…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-45",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Ensure an accessibility baseline\". Central idea to communicate visually: Make the product usable with a keyboard, screen readers and sufficient contrast. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Use semantic HTML\", \"Ensure full keyboard\", \"Add alt text\", \"Meet WCAG contrast\". Add one small tag/badge with the goal metric: \"You can complete the core flow with keyboard-only…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-46",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Optimise performance & Core Web Vitals\". Central idea to communicate visually: Make pages load fast and feel instant, hitting good Core Web Vitals scores. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Measure current LCP\", \"Optimise images\", \"Reduce and code\", \"Serve via CDN\". Add one small tag/badge with the goal metric: \"LCP < 2.5s, INP < 200ms, CLS <…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-47",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add high-quality imagery & illustrations\". Central idea to communicate visually: Replace placeholders with cohesive, on-brand images (AI-generated or licensed). Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose a consistent\", \"Generate cohesive AI\", \"Use framed product\", \"Respect licensing\". Add one small tag/badge with the goal metric: \"Visuals look intentional and on-brand; no generic stock…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-48",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Perfect the favicon & app icons everywhere\". Central idea to communicate visually: Ensure a crisp, consistent Netflix-style icon appears in tabs, bookmarks, apps and shares. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Generate a full\", \"Include Apple touch\", \"Reference all icons\", \"Verify the icon\". Add one small tag/badge with the goal metric: \"The correct branded icon appears in every context,…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-49",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Cross-browser & device QA\". Central idea to communicate visually: Verify the product works and looks right across major browsers and real devices. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Check your analytics/ICP\", \"Test latest Chrome\", \"Test real phones\", \"Walk core flows\". Add one small tag/badge with the goal metric: \"No core-flow breakage on any browser/device your users…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-50",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Content & microcopy polish pass\". Central idea to communicate visually: Refine every piece of on-screen text so it is clear, on-brand and helpful. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Go screen\", \"Rewrite labels/messages\", \"Use brand voice\", \"Make errors human\". Add one small tag/badge with the goal metric: \"No confusing labels, jargon or typos; terminology is…\". Small bottom-corner phase label: \"Phase 5: Design & Quality Bar\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-51",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add authentication (Google + email)\". Central idea to communicate visually: Let users sign up and log in securely, with Google OAuth and an email option. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Use a proven\", \"Offer Continue\", \"Add an email\", \"Verify email ownership\". Add one small tag/badge with the goal metric: \"Users can sign up and log in reliably;…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-52",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Session management & account security\". Central idea to communicate visually: Handle sessions, tokens and account protections so accounts cannot be hijacked. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Use httpOnly\", \"Set sensible session\", \"Make logout invalidate\", \"Rate\". Add one small tag/badge with the goal metric: \"Expired/stolen sessions cannot access data; admin accounts require…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-53",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up production PostgreSQL\". Central idea to communicate visually: Run a reliable, secured production Postgres database with pooling and monitoring. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Provision managed Postgres\", \"Keep production separate\", \"Restrict network access\", \"Store the connection\". Add one small tag/badge with the goal metric: \"Stable performance under load; verified restore; no public…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-54",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build authorization & multi-tenant data isolation\". Central idea to communicate visually: Ensure every user can only access their own data, enforced at the data layer. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Decide the model\", \"Make tenant/owner IDs\", \"Scope every read/write\", \"Centralise enforcement\". Add one small tag/badge with the goal metric: \"Cross-tenant access attempts fail every time, verified by…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-55",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Implement notifications (in-app + email)\". Central idea to communicate visually: Build a working notification system backed by the database for real-time and email alerts. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Create a notifications\", \"Build\", \"Add real\", \"Send transactional email\". Add one small tag/badge with the goal metric: \"Timely, relevant notifications measurably increase return visits\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-56",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add payments & billing\". Central idea to communicate visually: Let customers pay you — subscriptions or one-off — with a secure, reliable billing flow. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose a payment\", \"Pick a model\", \"Use hosted checkout\", \"Provision access\". Add one small tag/badge with the goal metric: \"Customers can pay, manage and cancel; billing state…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-57",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add transparent audit trails & tracking\". Central idea to communicate visually: Record an immutable, verifiable history of key actions (\"blockchain-style\" transparency). Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify the significant\", \"Design an audit\", \"Write audit records\", \"Add hash\". Add one small tag/badge with the goal metric: \"Every significant action is verifiably recorded; tampering is…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-58",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Privacy & data-protection compliance\". Central idea to communicate visually: Meet privacy obligations (GDPR and local laws) with a policy, consent and data rights. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify what personal\", \"Publish a clear\", \"Implement real consent\", \"Provide data access/export\". Add one small tag/badge with the goal metric: \"Users can access, export and delete their data;…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-59",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Security hardening (OWASP Top 10)\". Central idea to communicate visually: Defend against the most common web vulnerabilities before attackers find them. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Confirm broken\", \"Use parameterised queries/ORM\", \"Escape output set\", \"Set security headers\". Add one small tag/badge with the goal metric: \"Automated scans pass; common attacks are blocked; dependencies…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-60",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Backups, disaster recovery & data export\". Central idea to communicate visually: Guarantee you can recover from data loss and that users can get their data out. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Define RPO/RTO targets\", \"Ensure backups are\", \"Keep multiple restore\", \"Rehearse a full\". Add one small tag/badge with the goal metric: \"A full restore succeeds in a drill; users…\". Small bottom-corner phase label: \"Phase 6: Auth, Data & Security\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-61",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build out the marketing site\". Central idea to communicate visually: Expand from a landing page to a full marketing site: features, pricing, about, contact. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build core pages\", \"Organise each around\", \"Make pricing clear\", \"Add social proof\". Add one small tag/badge with the goal metric: \"Prospects can self-serve answers and convert; pages are…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-62",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Lay the technical SEO foundation\". Central idea to communicate visually: Make your site fully crawlable and indexable with sitemaps, robots, meta and structured data. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Generate and submit\", \"Ensure pages return\", \"Give every page\", \"Set canonical URLs\". Add one small tag/badge with the goal metric: \"Key pages indexed in Search Console with no…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-63",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Keyword research & on-page SEO\". Central idea to communicate visually: Find what your customers search for and target those terms with optimised pages. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Brainstorm problem\", \"Validate\", \"Prioritise by volume\", \"Favour long\". Add one small tag/badge with the goal metric: \"Growing rankings and organic clicks for target keywords…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-64",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Start a content engine (blog)\". Central idea to communicate visually: Publish useful content consistently to attract, educate and convert your audience. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Plan an editorial\", \"Write comprehensive\", \"Organise content\", \"Include practical value\". Add one small tag/badge with the goal metric: \"Consistent publishing driving growing organic traffic and shares\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-65",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add legal pages (terms, privacy, cookies, refunds)\". Central idea to communicate visually: Publish the legal pages that protect you and inform users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Publish Terms\", \"Add a clear\", \"Customise all\", \"Get high\". Add one small tag/badge with the goal metric: \"All required policies are live, accurate and consented…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-66",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a help center / docs / FAQ\". Central idea to communicate visually: Give users self-service answers so they succeed without waiting on you. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List the real\", \"Write focused articles\", \"Use clear steps\", \"Add a plain\". Add one small tag/badge with the goal metric: \"Falling repeat-question support load; users self-serve common answers\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-67",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up a status page & changelog\". Central idea to communicate visually: Communicate uptime/incidents transparently and show a steady stream of improvements. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Set up\", \"Wire\", \"Commit to prompt\", \"Create a changelog/\". Add one small tag/badge with the goal metric: \"Incidents are communicated transparently; shipped improvements are visible\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-68",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run a pre-launch checklist & rehearsal\". Central idea to communicate visually: Systematically verify everything works before you drive real traffic and attention. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Walk the full\", \"Test auth\", \"Confirm speed\", \"Verify analytics actually\". Add one small tag/badge with the goal metric: \"Every critical path works flawlessly under a realistic…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-69",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Prepare launch assets\". Central idea to communicate visually: Create the demo video, press kit, screenshots and channel-specific launch content. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Produce a tight\", \"Capture high\", \"Build a press\", \"Write reusable copy\". Add one small tag/badge with the goal metric: \"Every channel has tailored, ready-to-publish assets before launch…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-70",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Execute the public launch\". Central idea to communicate visually: Run a coordinated launch across your channels to drive your first wave of users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Pick the day/time\", \"Notify your waitlist\", \"Post on Product\", \"Publish tailored content\". Add one small tag/badge with the goal metric: \"A first wave of sign-ups and clarity on…\". Small bottom-corner phase label: \"Phase 7: Content, SEO & Launch Prep\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-71",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Install web & product analytics\". Central idea to communicate visually: Track visitors and in-product behaviour so you can see what people actually do. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Install web analytics\", \"Install product analytics\", \"Respect consent\", \"Verify data is\". Add one small tag/badge with the goal metric: \"Reliable data flowing; you can see sources and…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-72",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Define your north-star metric & KPIs\". Central idea to communicate visually: Pick the one metric that best captures delivered value, plus supporting KPIs. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify the repeated\", \"Choose an NSM\", \"Write down\", \"Add supporting KPIs\". Add one small tag/badge with the goal metric: \"The whole team knows the NSM and what…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-73",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build conversion funnels & track activation\". Central idea to communicate visually: Measure each step from visitor to activated user and find where people drop off. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Map the stages\", \"Define each step\", \"Build the activation\", \"Add acquisition signup\". Add one small tag/badge with the goal metric: \"Rising conversion through your worst funnel step\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-74",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Design an event-tracking taxonomy\". Central idea to communicate visually: Define a clean, consistent naming scheme for the events and properties you track. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Adopt a consistent\", \"Track meaningful funnel/value\", \"Attach useful\", \"Identify users so\". Add one small tag/badge with the goal metric: \"Events are consistently named, correctly firing, and analysis-ready\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-75",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add session replay & heatmaps\". Central idea to communicate visually: Watch real users interact so you can see the friction numbers alone cannot explain. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Enable session replay\", \"When a funnel\", \"Watch for missed\", \"Use heatmaps\". Add one small tag/badge with the goal metric: \"You regularly find and fix real friction spotted…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-76",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a user feedback loop\". Central idea to communicate visually: Collect qualitative feedback continuously via surveys, in-app prompts and conversations. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Add always\", \"Run short\", \"Track NPS/satisfaction\", \"Offer a feature\". Add one small tag/badge with the goal metric: \"Steady qualitative input that regularly informs what you…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-77",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up A/B testing & experimentation\". Central idea to communicate visually: Test changes against a control so you learn what truly moves your metrics. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Write a clear\", \"Change one meaningful\", \"Ensure enough traffic\", \"Use an experimentation\". Add one small tag/badge with the goal metric: \"A growing log of validated wins improving your…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-78",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run cohort & retention analysis\". Central idea to communicate visually: Track whether users keep coming back over time, grouped by when they joined. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Define active\", \"Group users into\", \"Track\", \"Look\". Add one small tag/badge with the goal metric: \"A flattening retention curve and later cohorts retaining…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-79",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add error & performance monitoring (RUM)\". Central idea to communicate visually: Catch runtime errors and real-user performance problems before they cost you users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Add error tracking\", \"Upload source maps\", \"Group and rank\", \"Alert on new/spiking\". Add one small tag/badge with the goal metric: \"Bugs and real-user slowdowns are caught and fixed…\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-80",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Establish a weekly metrics review\". Central idea to communicate visually: Build a recurring rhythm of reviewing data and deciding what to do about it. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Schedule a recurring\", \"Prepare a consistent\", \"For each key\", \"Assign owners\". Add one small tag/badge with the goal metric: \"Weekly, evidence-based course-corrections moving your KPIs toward targets\". Small bottom-corner phase label: \"Phase 8: Analytics, Tracking & Feedback\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-81",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build an email list & capture\". Central idea to communicate visually: Grow an owned email list with compelling opt-ins and lead magnets. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Add prominent\", \"Create lead magnets\", \"Keep opt\", \"Deliver the promised\". Add one small tag/badge with the goal metric: \"Steady list growth toward your 10,000-email target\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-82",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set up your email marketing platform\". Central idea to communicate visually: Choose and configure an email platform with deliverability and automation set up right. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose a platform\", \"Verify SPF\", \"Warm up\", \"Separate transactional\". Add one small tag/badge with the goal metric: \"Emails reliably reach the inbox and render well…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-83",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Design lifecycle email sequences\". Central idea to communicate visually: Automate the right emails at the right moments: welcome, onboarding, nurture, re-engage. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build a welcome/onboarding\", \"Create nurture sequences\", \"Add behaviour\", \"Add milestone/celebration\". Add one small tag/badge with the goal metric: \"Onboarding emails measurably increase activation; sequences convert\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-84",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a community\". Central idea to communicate visually: Create a space where users connect with you and each other around your product/mission. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Choose a platform\", \"Seed\", \"Give\", \"Set light\". Add one small tag/badge with the goal metric: \"A growing core of engaged, returning, contributing members\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-85",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add a referral / invite program\". Central idea to communicate visually: Turn happy users into a growth channel with built-in sharing and referral incentives. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Pick a reward\", \"Give each user\", \"Prompt sharing right\", \"Add natural invitations\". Add one small tag/badge with the goal metric: \"A meaningful share of new users arriving via…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-86",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Improve retention hooks & habit formation\". Central idea to communicate visually: Design product mechanics that bring users back and build a lasting habit. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Map your product\", \"Add meaningful triggers\", \"Build investment\", \"Add progress/streaks/milestones where\". Add one small tag/badge with the goal metric: \"Improved repeat usage and a flatter, higher retention…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-87",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run win-back & re-engagement campaigns\". Central idea to communicate visually: Bring back users who have gone quiet or churned with targeted campaigns. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Define at\", \"Detect these states\", \"Nudge at\", \"Build a win\". Add one small tag/badge with the goal metric: \"A measurable share of at-risk/churned users reactivated; lower…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-88",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Deliver great support & customer success\". Central idea to communicate visually: Help users succeed fast and turn support interactions into loyalty and advocacy. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Make support easy\", \"Respond fast\", \"Be proactive\", \"Do support yourself\". Add one small tag/badge with the goal metric: \"High satisfaction\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-89",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a social-proof engine\". Central idea to communicate visually: Systematically collect and showcase reviews, testimonials, case studies and UGC. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify happy users\", \"Ask at peak\", \"Collect varied proof\", \"Ask specific\". Add one small tag/badge with the goal metric: \"Growing library of specific proof; higher conversion where…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-90",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Add loyalty, rewards & expansion\". Central idea to communicate visually: Reward loyal users and grow revenue per customer through upsells and expansion. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Design tiered plans/add\", \"Trigger upgrade prompts\", \"Make upgrading frictionless\", \"Reward loyalty\". Add one small tag/badge with the goal metric: \"Rising LTV/ARPU and net revenue retention trending toward…\". Small bottom-corner phase label: \"Phase 9: Email, Community & Retention\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-91",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Nail your growth strategy & pick channels\". Central idea to communicate visually: Choose the one or two acquisition channels to focus on and how to test them. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List every plausible\", \"Rank by fit\", \"Run cheap\", \"Judge channels\". Add one small tag/badge with the goal metric: \"A repeatable channel with acceptable CAC and quality…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-92",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Scale the content & SEO machine\". Central idea to communicate visually: Turn content and SEO into a compounding organic acquisition engine. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build a keyword/topic\", \"Set a repeatable\", \"Use AI\", \"Interlink into topic\". Add one small tag/badge with the goal metric: \"Organic traffic and organic-sourced sign-ups growing month over…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-93",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build organic social & distribution\". Central idea to communicate visually: Grow an engaged audience on the platforms your customers use (incl. a LinkedIn presence). Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Focus\", \"Lead with authentic\", \"Post consistently\", \"Repurpose your content\". Add one small tag/badge with the goal metric: \"Growing engaged followers and social-sourced sign-ups toward 10,000\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-94",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run paid advertising\". Central idea to communicate visually: Use Google, Meta/Facebook and other paid channels to acquire users profitably. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Set a target\", \"Set up accurate\", \"Start with search\", \"Send ads\". Add one small tag/badge with the goal metric: \"Scalable paid acquisition with LTV\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-95",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Leverage influencer & creator marketing\". Central idea to communicate visually: Partner with creators your audience trusts to reach engaged, relevant users. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify creators\", \"Vet for genuine\", \"Reach out\", \"Favour relevant micro/niche\". Add one small tag/badge with the goal metric: \"Positive-ROI creator partnerships delivering quality sign-ups\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-96",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Earn PR, press & media coverage\". Central idea to communicate visually: Get covered by media, newsletters and podcasts to build awareness and credibility. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Craft a genuine\", \"Build a targeted\", \"Personalise each pitch\", \"Use HARO/Connectively\". Add one small tag/badge with the goal metric: \"Credible media mentions driving awareness, backlinks and referral…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-97",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build partnerships & integrations\". Central idea to communicate visually: Grow through other companies’ audiences via integrations, co-marketing and channel deals. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List the tools/platforms\", \"Build key integrations\", \"Find complementary\", \"Propose genuinely mutual\". Add one small tag/badge with the goal metric: \"Partnership-sourced sign-ups growing; key integrations shipped and adopted\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-98",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Automate marketing with AI & bots\". Central idea to communicate visually: Use AI and automation (chatbots, content/posting automations, agent routines) to scale without headcount. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"List your repetitive\", \"Use AI\", \"Automate social scheduling\", \"Use AI image/video\". Add one small tag/badge with the goal metric: \"Meaningful time saved and output/conversions up without quality…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-99",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Study competitors & proven viral playbooks\". Central idea to communicate visually: Learn what works by analysing competitors and proven case studies (e.g. Starter Story). Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Analyse competitors organic\", \"Study their live\", \"Examine their content\", \"Read case studies\". Add one small tag/badge with the goal metric: \"Higher tactic hit-rate by adapting proven playbooks to…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-100",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"On-ground activations & outsourcing\". Central idea to communicate visually: Extend reach with offline/local activations and by hiring agencies or contractors for scale. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Identify\", \"Run events/demos/local partnerships/field\", \"Attribute\", \"Outsource proven\". Add one small tag/badge with the goal metric: \"On-ground and outsourced efforts delivering trackable, cost-effective growth\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-101",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Hit the 10,000 milestones & optimise CAC/LTV\". Central idea to communicate visually: Reach 10,000 users, 10,000 followers and 10,000 transactions with sustainable economics. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Track explicit progress\", \"Know each channel\", \"Ensure retention holds\", \"Continuously measure\". Add one small tag/badge with the goal metric: \"10,000 users + 10,000 followers + 10,000 transactions;…\". Small bottom-corner phase label: \"Phase 10: Growth to 10,000\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-102",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Decide whether (and when) to raise\". Central idea to communicate visually: Consciously choose to pursue VC — or an alternative — at the right moment, for the right reasons. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Assess whether\", \"Honestly weigh dilution\", \"Consider alternatives\", \"Time the raise\". Add one small tag/badge with the goal metric: \"A conscious funding-path decision matched to your business…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-103",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Assemble traction metrics & data room\". Central idea to communicate visually: Compile the metrics and documents investors will scrutinise into an organised data room. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Compile growth metrics\", \"Show trends over\", \"Build a secure\", \"Include deck\". Add one small tag/badge with the goal metric: \"You can answer any diligence request in hours…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-104",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build a compelling pitch deck\". Central idea to communicate visually: Create a clear, persuasive deck that tells your story and makes investors want to meet. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Follow the standard\", \"Lead\", \"One clear point\", \"Make it work\". Add one small tag/badge with the goal metric: \"The deck gets meetings and gets forwarded to…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-105",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Craft the fundraising narrative\". Central idea to communicate visually: Develop a compelling story and the answers to tough questions that you can tell in any format. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build a core\", \"Create a sense\", \"List the tough\", \"Acknowledge real risks\". Add one small tag/badge with the goal metric: \"You can deliver a compelling, consistent pitch and…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-106",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build the financial model & projections\". Central idea to communicate visually: Create a credible model of your economics and a defensible growth/revenue projection. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Build an assumption\", \"Project revenue bottom\", \"Show unit economics\", \"Model how\". Add one small tag/badge with the goal metric: \"You can defend every key assumption and tie…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-107",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Set valuation, round size & use of funds\". Central idea to communicate visually: Decide how much to raise, at what terms, and exactly what the money will achieve. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Size the round\", \"Justify the amount\", \"Choose the instrument\", \"Target a fair\". Add one small tag/badge with the goal metric: \"A raise amount and terms justified by your…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-108",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Build your investor pipeline & get intros\". Central idea to communicate visually: Create a targeted list of the right investors and line up warm introductions. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Research investors\", \"Build a targeted\", \"Map warm\", \"Request specific\". Add one small tag/badge with the goal metric: \"A full pipeline of well-matched investors with warm…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-109",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Run the fundraising process\". Central idea to communicate visually: Execute investor meetings and follow-ups with momentum to drive toward offers. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Concentrate meetings into\", \"Deliver the pitch\", \"Follow up promptly\", \"Keep the CRM\". Add one small tag/badge with the goal metric: \"One or more genuine offers / term sheets…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-110",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Diligence, negotiation & closing\". Central idea to communicate visually: Get through due diligence, negotiate fair terms, and close the round. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Respond to due\", \"Proactively address any\", \"Learn the key\", \"Weigh valuation against\". Add one small tag/badge with the goal metric: \"Capital in the bank on fair terms with…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  },
+  {
+    "name": "task-111",
+    "prompt": "Educational infographic that teaches one startup task. Title text at the top: \"Post-raise: deploy capital & scale\". Central idea to communicate visually: Onboard investors, deploy the funds against your plan, and execute toward the next stage. Design it as a clean, self-explanatory diagram with 4 labelled icon nodes connected by numbered steps or arrows showing the flow. The icon nodes are labelled: \"Deploy funds deliberately\", \"Make the key\", \"Send regular\", \"Actively leverage investors\". Add one small tag/badge with the goal metric: \"Hitting the milestones the round funded; set up…\". Small bottom-corner phase label: \"Phase 11: Fundraising: Idea → VC\". Keep it minimal, balanced, uncluttered and instantly readable."
+  }
+]

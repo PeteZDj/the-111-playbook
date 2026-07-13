@@ -12,6 +12,7 @@ await build({
     contents: `
       export { tasks, totalTasks } from './src/data/tasks';
       export { phases } from './src/data/phases';
+      export { caseStudies } from './src/data/caseStudies';
     `,
     resolveDir: process.cwd(),
     loader: 'ts',
@@ -23,7 +24,7 @@ await build({
   logLevel: 'silent',
 });
 
-const { tasks, totalTasks, phases } = await import(pathToFileURL(tmp).href);
+const { tasks, totalTasks, phases, caseStudies } = await import(pathToFileURL(tmp).href);
 
 const SITE = 'https://111.pete.ke';
 const REPO = 'https://github.com/PeteZDj/the-111-playbook';
@@ -41,7 +42,17 @@ function taskMd(t) {
   lines.push('');
   lines.push(`**Why this matters.** ${t.why}`);
   lines.push('');
+  if (t.eli5) {
+    lines.push(`**Explain it like I'm 5.** ${t.eli5}`);
+    lines.push('');
+  }
   for (const para of t.guide) lines.push(para, '');
+  if (t.examples?.length) {
+    lines.push('**What this looks like in practice**');
+    lines.push('');
+    for (const ex of t.examples) lines.push(`- ${ex}`);
+    lines.push('');
+  }
   lines.push('**Checklist**');
   lines.push('');
   for (const s of t.steps) lines.push(`- [ ] ${s}`);
@@ -117,6 +128,33 @@ for (const p of phases) {
   out.push('');
   const list = tasks.filter((t) => t.phase === p.id);
   for (const t of list) out.push(taskMd(t));
+}
+
+// Case studies
+out.push('## Case studies — the playbook in the wild');
+out.push('');
+out.push('Real companies, mapped to the playbook. Illustrative summaries drawn from widely reported public accounts.');
+out.push('');
+for (const c of caseStudies) {
+  out.push(`### ${c.emoji} ${c.company} — ${c.tagline}`);
+  out.push('');
+  out.push(`_${c.category}_ · ${c.theNumbers.join(' · ')}`);
+  out.push('');
+  out.push(c.summary);
+  out.push('');
+  for (const p of c.phases) out.push(`- **Phase ${p.phase} — ${p.title}:** ${p.story}`);
+  out.push('');
+  out.push('**Lessons you can steal**');
+  out.push('');
+  for (const l of c.lessons) out.push(`- ${l}`);
+  out.push('');
+  const rel = c.relatedTasks
+    .map((id) => tasks.find((t) => t.id === id))
+    .filter(Boolean)
+    .map((t) => `#${t.id} ${t.title}`);
+  if (rel.length) out.push(`_Illustrates tasks: ${rel.join('; ')}._`, '');
+  out.push('---');
+  out.push('');
 }
 
 out.push('## License');

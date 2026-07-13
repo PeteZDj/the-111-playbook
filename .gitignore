@@ -6,7 +6,11 @@ dist/
 
 # Temp / generated working files
 _magi_tmp/
+_infographic_tmp/
 _playbook_data.mjs
+_shotlist_data.mjs
+_dump_data.mjs
+_dump.mjs
 *.log
 
 # Editor / OS

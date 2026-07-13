@@ -54,6 +54,9 @@ export default function Nav({ onOpenSearch }: { onOpenSearch: () => void }) {
           <Link to="/tasks" className="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition">
             All 111 tasks
           </Link>
+          <Link to="/case-studies" className="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition">
+            Case studies
+          </Link>
           <Link to="/progress" className="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition">
             My progress
           </Link>
@@ -105,6 +108,7 @@ export default function Nav({ onOpenSearch }: { onOpenSearch: () => void }) {
           {[
             ['Phases', '/phases'],
             ['All 111 tasks', '/tasks'],
+            ['Case studies', '/case-studies'],
             ['My progress', '/progress'],
           ].map(([label, to]) => (
             <button

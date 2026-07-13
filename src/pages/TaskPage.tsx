@@ -12,9 +12,13 @@ import {
   Gauge,
   ListChecks,
   ExternalLink,
+  Baby,
+  Lightbulb,
+  Building2,
 } from 'lucide-react';
 import { taskBySlug, taskById, totalTasks } from '../data/tasks';
 import { phaseById } from '../data/phases';
+import { caseStudiesForTask } from '../data/caseStudies';
 import { isTaskDone, toggleTask, isStepDone, toggleStep, useProgress } from '../lib/progress';
 
 const diffColor: Record<string, string> = {
@@ -42,6 +46,8 @@ export default function TaskPage() {
   const prev = taskById(task.id - 1);
   const next = taskById(task.id + 1);
   const stepsDone = task.steps.filter((_, i) => isStepDone(task.id, i)).length;
+  const examples = task.examples ?? [];
+  const relatedCases = caseStudiesForTask(task.id);
 
   return (
     <div className="max-w-3xl mx-auto px-5 py-10 lg:py-14">
@@ -95,6 +101,31 @@ export default function TaskPage() {
         {done ? 'Completed — nice work' : 'Mark task complete'}
       </button>
 
+      {/* Infographic */}
+      {task.infographic && (
+        <figure className="mt-8 rounded-2xl overflow-hidden border border-white/10 bg-white/[0.02] card-glow">
+          <img
+            src={task.infographic}
+            alt={`Infographic explaining: ${task.title}`}
+            loading="lazy"
+            className="w-full h-auto"
+            onError={(e) => {
+              (e.currentTarget.closest('figure') as HTMLElement).style.display = 'none';
+            }}
+          />
+        </figure>
+      )}
+
+      {/* ELI5 */}
+      {task.eli5 && (
+        <section className="mt-8 rounded-2xl border border-cyan-500/20 bg-cyan-500/[0.05] p-6">
+          <h2 className="flex items-center gap-2 font-display font-semibold text-white mb-2">
+            <Baby className="w-4 h-4 text-cyan-400" /> Explain it like I&apos;m 5
+          </h2>
+          <p className="text-slate-200 leading-relaxed">{task.eli5}</p>
+        </section>
+      )}
+
       {/* Why it matters */}
       <section className="mt-10 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
         <h2 className="flex items-center gap-2 font-display font-semibold text-white mb-2">
@@ -114,6 +145,28 @@ export default function TaskPage() {
           ))}
         </div>
       </section>
+
+      {/* Examples */}
+      {examples.length > 0 && (
+        <section className="mt-10">
+          <h2 className="flex items-center gap-2 font-display text-xl font-bold text-white mb-4">
+            <Lightbulb className="w-5 h-5 text-amber-400" /> What this looks like in practice
+          </h2>
+          <div className="grid gap-3">
+            {examples.map((ex, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.03] p-4"
+              >
+                <span className="shrink-0 w-6 h-6 rounded-lg bg-amber-500/15 text-amber-300 text-xs font-bold flex items-center justify-center mt-0.5">
+                  {i + 1}
+                </span>
+                <p className="text-sm text-slate-200 leading-relaxed">{ex}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Steps checklist */}
       <section className="mt-10">
@@ -186,6 +239,35 @@ export default function TaskPage() {
         </h2>
         <p className="text-slate-200">{task.deliverable}</p>
       </section>
+
+      {/* Related case studies */}
+      {relatedCases.length > 0 && (
+        <section className="mt-8">
+          <h2 className="flex items-center gap-2 font-display font-semibold text-white mb-3">
+            <Building2 className="w-4 h-4 text-violet-400" /> See it in a real company
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {relatedCases.map((c) => (
+              <Link
+                key={c.slug}
+                to={`/case-study/${c.slug}`}
+                className="group flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 hover:border-white/25 transition"
+              >
+                <span
+                  className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0"
+                  style={{ backgroundColor: `${c.color}1f` }}
+                >
+                  {c.emoji}
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-sm font-medium text-white group-hover:text-white">{c.company}</span>
+                  <span className="block text-xs text-slate-500 truncate">{c.tagline}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Resources */}
       {task.resources.length > 0 && (

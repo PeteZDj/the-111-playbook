@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Users, Megaphone, Receipt, CheckCircle2, Sparkles, Rocket } from 'lucide-react';
 import { phases } from '../data/phases';
-import { tasks, totalTasks, tasksByPhase } from '../data/tasks';
+import { totalTasks, tasksByPhase } from '../data/tasks';
+import { caseStudies } from '../data/caseStudies';
 import { doneCount, phaseDoneCount, useProgress } from '../lib/progress';
 
 const goals = [
@@ -171,6 +172,39 @@ export default function Home() {
               Browse all 111 tasks <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Case studies */}
+      <section className="max-w-6xl mx-auto px-5 py-16">
+        <div className="flex items-end justify-between mb-8 gap-4">
+          <div>
+            <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">Proof it works</h2>
+            <p className="mt-2 text-slate-400">Famous startups, mapped to the same 111 tasks.</p>
+          </div>
+          <Link to="/case-studies" className="hidden sm:inline-flex items-center gap-1 text-sm text-slate-300 hover:text-white">
+            All case studies <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {caseStudies.slice(0, 4).map((c) => (
+            <Link
+              key={c.slug}
+              to={`/case-study/${c.slug}`}
+              className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-white/25 transition card-glow"
+            >
+              <div
+                className="w-11 h-11 rounded-xl flex items-center justify-center text-2xl mb-3"
+                style={{ backgroundColor: `${c.color}1f` }}
+              >
+                {c.emoji}
+              </div>
+              <div className="font-display font-semibold text-white">{c.company}</div>
+              <p className="mt-1 text-xs text-slate-400 line-clamp-2">{c.tagline}</p>
+              <div className="mt-3 text-[11px] text-slate-500">{c.theNumbers[0]}</div>
+            </Link>
+          ))}
         </div>
       </section>
     </div>

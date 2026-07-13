@@ -9,6 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "images": "node scripts/convert-images.mjs",
+    "infographics": "node scripts/convert-infographics.mjs",
+    "shotlist": "node scripts/generate-infographic-shotlist.mjs",
     "playbook": "node scripts/generate-playbook.mjs"
   },
   "dependencies": {
