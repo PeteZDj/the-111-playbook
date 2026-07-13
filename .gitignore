@@ -11,6 +11,7 @@ _playbook_data.mjs
 _shotlist_data.mjs
 _dump_data.mjs
 _dump.mjs
+scripts/magi-shotlist-missing.json
 *.log
 
 # Editor / OS
