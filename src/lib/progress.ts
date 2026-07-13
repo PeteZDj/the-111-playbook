@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from 'react';
+import { playToggleOn, playToggleOff, playTick, playClick } from './sound';
 
 const TASK_KEY = 'p111_done_tasks';
 const STEP_KEY = 'p111_done_steps';
@@ -45,10 +46,18 @@ export function isTaskDone(id: number): boolean {
 export function toggleTask(id: number) {
   const s = read(TASK_KEY);
   const k = String(id);
-  if (s.has(k)) s.delete(k);
-  else s.add(k);
+  let nowDone: boolean;
+  if (s.has(k)) {
+    s.delete(k);
+    nowDone = false;
+  } else {
+    s.add(k);
+    nowDone = true;
+  }
   write(TASK_KEY, s);
   emit();
+  if (nowDone) playToggleOn();
+  else playToggleOff();
 }
 
 export function stepKey(taskId: number, idx: number) {
@@ -62,10 +71,18 @@ export function isStepDone(taskId: number, idx: number): boolean {
 export function toggleStep(taskId: number, idx: number) {
   const s = read(STEP_KEY);
   const k = stepKey(taskId, idx);
-  if (s.has(k)) s.delete(k);
-  else s.add(k);
+  let nowDone: boolean;
+  if (s.has(k)) {
+    s.delete(k);
+    nowDone = false;
+  } else {
+    s.add(k);
+    nowDone = true;
+  }
   write(STEP_KEY, s);
   emit();
+  if (nowDone) playTick();
+  else playClick();
 }
 
 export function doneCount(): number {

@@ -47,7 +47,7 @@ export default function TaskPage() {
   const next = taskById(task.id + 1);
   const stepsDone = task.steps.filter((_, i) => isStepDone(task.id, i)).length;
   const examples = task.examples ?? [];
-  const relatedCases = caseStudiesForTask(task.id);
+  const relatedCases = caseStudiesForTask(task.id, task.phase);
 
   return (
     <div className="max-w-3xl mx-auto px-5 py-10 lg:py-14">
@@ -88,8 +88,9 @@ export default function TaskPage() {
 
       {/* Mark complete */}
       <button
+        data-nosound
         onClick={() => toggleTask(task.id)}
-        className={`mt-6 inline-flex items-center gap-2 px-5 py-3 rounded-xl font-semibold transition ${
+        className={`mt-6 inline-flex items-center gap-2 px-5 py-3 rounded-xl font-semibold transition pressable ${
           done
             ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
             : 'bg-gradient-to-r from-orange-500 to-violet-500 text-white hover:shadow-lg hover:shadow-orange-500/25'
@@ -182,6 +183,7 @@ export default function TaskPage() {
             return (
               <button
                 key={i}
+                data-nosound
                 onClick={() => toggleStep(task.id, i)}
                 className={`w-full text-left flex items-start gap-3 rounded-xl border p-3.5 transition ${
                   sd ? 'border-emerald-500/25 bg-emerald-500/5' : 'border-line bg-surface hover:border-line-strong'
@@ -240,31 +242,39 @@ export default function TaskPage() {
         <p className="text-muted">{task.deliverable}</p>
       </section>
 
-      {/* Related case studies */}
+      {/* Related case studies — always populated, with a phase-specific story */}
       {relatedCases.length > 0 && (
         <section className="mt-8">
-          <h2 className="flex items-center gap-2 font-display font-semibold text-ink mb-3">
+          <h2 className="flex items-center gap-2 font-display font-semibold text-ink mb-1">
             <Building2 className="w-4 h-4 text-violet-400" /> See it in a real company
           </h2>
+          <p className="text-sm text-subtle mb-3">How famous startups handled {phase.title.toLowerCase()}.</p>
           <div className="grid sm:grid-cols-2 gap-3">
-            {relatedCases.map((c) => (
-              <Link
-                key={c.slug}
-                to={`/case-study/${c.slug}`}
-                className="group flex items-center gap-3 rounded-xl border border-line bg-surface px-4 py-3 hover:border-line-strong hover-lift"
-              >
-                <span
-                  className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0 group-hover:scale-110 group-hover:-rotate-6 transition-transform"
-                  style={{ backgroundColor: `${c.color}1f` }}
+            {relatedCases.map((c) => {
+              const story = c.phases.find((p) => p.phase === task.phase)?.story;
+              return (
+                <Link
+                  key={c.slug}
+                  to={`/case-study/${c.slug}`}
+                  className="group rounded-xl border border-line bg-surface p-4 hover:border-line-strong hover-lift"
                 >
-                  {c.emoji}
-                </span>
-                <span className="min-w-0">
-                  <span className="block text-sm font-medium text-ink group-hover:text-ink">{c.company}</span>
-                  <span className="block text-xs text-subtle truncate">{c.tagline}</span>
-                </span>
-              </Link>
-            ))}
+                  <div className="flex items-center gap-3 mb-2">
+                    <span
+                      className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shrink-0 group-hover:scale-110 group-hover:-rotate-6 transition-transform"
+                      style={{ backgroundColor: `${c.color}1f` }}
+                    >
+                      {c.emoji}
+                    </span>
+                    <span className="min-w-0">
+                      <span className="block text-sm font-medium text-ink">{c.company}</span>
+                      <span className="block text-[11px] text-subtle truncate">{c.category}</span>
+                    </span>
+                    <ArrowRight className="w-4 h-4 text-subtle group-hover:text-ink group-hover:translate-x-0.5 transition ml-auto shrink-0" />
+                  </div>
+                  <p className="text-xs text-muted leading-relaxed line-clamp-3">{story ?? c.tagline}</p>
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

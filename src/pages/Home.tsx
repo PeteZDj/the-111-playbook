@@ -5,6 +5,7 @@ import { totalTasks, tasksByPhase } from '../data/tasks';
 import { caseStudies } from '../data/caseStudies';
 import { doneCount, phaseDoneCount, useProgress } from '../lib/progress';
 import TiltCard from '../components/TiltCard';
+import PlaybookMap from '../components/PlaybookMap';
 
 const goals = [
   { icon: Users, label: '10,000 users', desc: 'A working MVP with real, retained users.', color: '#f97316' },
@@ -225,6 +226,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* The whole playbook, one page */}
+      <PlaybookMap />
     </div>
   );
 }

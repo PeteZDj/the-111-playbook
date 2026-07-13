@@ -294,9 +294,38 @@ export const caseStudies: CaseStudy[] = [
 
 export const caseStudyBySlug = (slug: string) => caseStudies.find((c) => c.slug === slug);
 
-/** Case studies whose relatedTasks include this task id. */
-export const caseStudiesForTask = (taskId: number) =>
-  caseStudies.filter((c) => c.relatedTasks.includes(taskId));
+/**
+ * Curated, phase-relevant companies so EVERY task can show "see it in a real
+ * company" examples — not just the handful explicitly tagged in relatedTasks.
+ * Each phase lists the 3 stories that best illustrate that stage of the journey.
+ */
+const caseStudiesByPhase: Record<number, string[]> = {
+  1: ['airbnb', 'dropbox', 'superhuman'], // Idea & Validation
+  2: ['notion', 'canva', 'superhuman'], // Brand, Domain & Identity
+  3: ['stripe', 'figma', 'dropbox'], // Foundation & Infrastructure
+  4: ['notion', 'dropbox', 'airbnb'], // MVP Build
+  5: ['notion', 'superhuman', 'figma'], // Design & Quality Bar
+  6: ['stripe', 'dropbox', 'figma'], // Auth, Data & Security
+  7: ['canva', 'stripe', 'duolingo'], // Content, SEO & Launch Prep
+  8: ['duolingo', 'superhuman', 'stripe'], // Analytics, Tracking & Feedback
+  9: ['duolingo', 'notion', 'dropbox'], // Email, Community & Retention
+  10: ['airbnb', 'duolingo', 'canva'], // Growth to 10,000
+  11: ['airbnb', 'stripe', 'figma'], // Fundraising: Idea → VC
+};
+
+/**
+ * Case studies to show for a task: the explicitly tagged ones first (most
+ * relevant), then filled up with phase-relevant stories so there is always a
+ * meaningful "real company" example. Capped for a tidy layout.
+ */
+export function caseStudiesForTask(taskId: number, phaseId?: number, limit = 3): CaseStudy[] {
+  const explicit = caseStudies.filter((c) => c.relatedTasks.includes(taskId));
+  const seen = new Set(explicit.map((c) => c.slug));
+  const fill = (phaseId ? caseStudiesByPhase[phaseId] ?? [] : [])
+    .map((slug) => caseStudyBySlug(slug))
+    .filter((c): c is CaseStudy => Boolean(c) && !seen.has((c as CaseStudy).slug));
+  return [...explicit, ...fill].slice(0, limit);
+}
 
 /** Case studies that reference any task in the given phase. */
 export const caseStudiesForPhase = (phaseTaskIds: number[]) =>

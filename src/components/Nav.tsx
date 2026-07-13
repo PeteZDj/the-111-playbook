@@ -4,6 +4,7 @@ import { Menu, X, Search, Github } from 'lucide-react';
 import { doneCount, useProgress } from '../lib/progress';
 import { totalTasks } from '../data/tasks';
 import ThemeToggle from './ThemeToggle';
+import MuteButton from './MuteButton';
 
 const REPO_URL = 'https://github.com/PeteZDj/the-111-playbook';
 
@@ -84,6 +85,8 @@ export default function Nav({ onOpenSearch }: { onOpenSearch: () => void }) {
             <span className="text-xs font-semibold text-ink tabular-nums">{pct}%</span>
           </Link>
 
+          <MuteButton />
+
           <ThemeToggle />
 
           <a
@@ -137,6 +140,10 @@ export default function Nav({ onOpenSearch }: { onOpenSearch: () => void }) {
           <div className="flex items-center justify-between px-3 py-2.5">
             <span className="text-sm text-muted">Theme</span>
             <ThemeToggle />
+          </div>
+          <div className="flex items-center justify-between px-3 py-2.5">
+            <span className="text-sm text-muted">Sound effects</span>
+            <MuteButton />
           </div>
         </div>
       )}

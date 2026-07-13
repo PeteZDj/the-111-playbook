@@ -14,6 +14,7 @@ import CaseStudyPage from './pages/CaseStudyPage';
 import NotFound from './pages/NotFound';
 import ScrollProgress from './components/ScrollProgress';
 import { useReveal } from './lib/useReveal';
+import { playClick } from './lib/sound';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -23,9 +24,25 @@ function ScrollToTop() {
   return null;
 }
 
+/** Subtle UI click on any button/link, unless it opts out with data-nosound. */
+function useUiClickSound() {
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const el = target?.closest('a, button, [role="button"]');
+      if (!el) return;
+      if (el.closest('[data-nosound]')) return;
+      playClick();
+    };
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, []);
+}
+
 export default function App() {
   const [searchOpen, setSearchOpen] = useState(false);
   useReveal();
+  useUiClickSound();
 
   return (
     <div className="min-h-screen bg-aurora">

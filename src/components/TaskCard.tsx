@@ -24,6 +24,7 @@ export default function TaskCard({ task }: { task: Task }) {
     >
       <div className="flex items-start gap-4">
         <button
+          data-nosound
           onClick={() => toggleTask(task.id)}
           className={`shrink-0 mt-0.5 w-7 h-7 rounded-lg border flex items-center justify-center transition pressable ${
             done
